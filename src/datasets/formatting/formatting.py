@@ -52,7 +52,7 @@ def _query_table_with_indices_mapping(
 ) -> pa.Table:
     """
     Query a pyarrow Table to extract the subtable that correspond to the given key.
-    The :obj:`indices` parameter corresponds to the indices mapping in case we cant to take into
+    The :obj:`indices` parameter corresponds to the indices mapping in case we cannot take into
     account a shuffling or an indices selection for example.
     The indices table must contain one column named "indices" of type uint64.
     """

@@ -196,7 +196,7 @@ TESTS_REQUIRE = [
     "zstandard",
     "polars[timezone]>=0.20.0",
     "Pillow>=9.4.0",  # When PIL.Image.ExifTags was introduced
-    "torchcodec>=0.7.0; python_version < '3.14'",  # minium version to get windows support, torchcodec doesn't have wheels for 3.14 yet
+    "torchcodec>=0.7.0; python_version < '3.14'",  # minimum version to get windows support, torchcodec doesn't have wheels for 3.14 yet
     "nibabel>=5.3.1",
     "trimesh>=4.10.0",
     "teich==0.1.5",
