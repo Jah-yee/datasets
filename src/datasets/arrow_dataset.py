@@ -7194,7 +7194,7 @@ def _interleave_map_style_datasets(
 
         # Reasoning behind the following operation: keeping the first indices of each dataset
         # while offsetting in order to correspond to the right indices of the concatenated dataset
-        # and flattening to effectively interleave the datasets. Then we remove the exausted datasets
+        # and flattening to effectively interleave the datasets. Then we remove the exhausted datasets
         # and we continue with the following indices, until all datasets are exhausted
         chunks_boundaries = [0] + sorted(set(lengths))
         chunks = zip(chunks_boundaries[:-1], chunks_boundaries[1:])
